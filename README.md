@@ -1,8 +1,6 @@
-# SPlitty
+# Expression Faders
 
 A simple midi controller with 2 faders and 2 rotary encoders. This was made for adding midi cc1 and cc11 while playing midi instruments such as strings to give more dynamic range and expression. The rotary encoders can also be mapped to any track specific features such as volume or other daw macros.
-
-<img src=assets/full.png alt="full" width="500"/>
 
 ## Features
 
