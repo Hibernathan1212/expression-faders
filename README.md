@@ -2,18 +2,27 @@
 
 A simple midi controller with 2 faders and 2 rotary encoders. This was made for adding midi cc1 and cc11 while playing midi instruments such as strings to give more dynamic range and expression. The rotary encoders can also be mapped to any track specific features such as volume or other daw macros.
 
+The goal was to be able to add more dynamic control while playing on a midi keyboard. Inspired by [Christian Henson](https://youtu.be/O5ax1lMdYO0?si=J35fgkykRBnHvoFT&t=346) and his approach to string writing and playing on a midi keyboard.
+
+<img src=assets/assembled.png alt="assembled" width="500"/>
+
+<img src=assets/topless.png alt="topless" width="500"/>
+
 ## Features
 
 - 2 ptb0143 100mm faders for controlling midi cc
 - 2 ec11 rotary encoders for controlling other daw values such as volume
+- Xiao rp2040 for its midi support and size
 
 ## CAD
 
 Consists of a base and a top lid that slots in a lip on the base. PCB is mounted to the lid with 4 m3 screws that go into the faders.
 
-<img src=assets/case.png alt="Left" width="500"/>
+<img src=assets/case.png alt="case" width="500"/>
 
 Made in Onshape.
+
+[source](https://cad.onshape.com/documents/7d573544174621b2e2808d4e/w/58510c4aadba22e801dceb47/e/146ecd20f6130f1f9171a54c?renderMode=0&uiState=69f439aeeff61854c6391ffe)
 
 ## PCB
 
